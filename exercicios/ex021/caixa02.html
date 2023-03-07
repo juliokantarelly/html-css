@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 5px;
+            text-align: center;
+            margin: 10px;
+            border-radius: 10px 0px;
+        }
+
+        nav {
+            background-color: rgb(59, 59, 59);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin-left: 30px;
+            font-weight: bold;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 10px;
+        }
+
+        section > h2 {
+            text-align: center;
+        }
+
+        section {
+            text-align: justify;
+        }
+
+        aside {
+            text-align: right;
+            color: rgb(29, 29, 29);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 5px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+
+        </section>
+        <section id="Notícias">
+            <h2>Notícia sobre lorem</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At soluta ad deleniti tempora possimus veniam facilis non a ipsum. Nihil ea earum doloribus magni dolores mollitia ut dicta illo ipsum!</p>
+            <aside>
+                <p>Escrito by Nebullous</p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido by Nebullous</p>
+    </footer>
+</body>
+</html>

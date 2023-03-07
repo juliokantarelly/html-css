@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2> <!--Tipos: 1 - padrão; A - Alfa-Maior; a - alfa-menor; I - Num. Rom-Maior; i - Num. Rom-Menor.-->
+    <ol type="I" start = 5>
+        <li>Acordar</li>
+        <li>Escovar os Dentes</li>
+        <li>Tomar Café</li>
+        <li>Trabalhar</li>
+    </ol> 
+    <h2>Listas Não-ordenadas</h2>
+    <ul type="square"> <!--Tipos: disc - padrão; circle - circunferência; square - quadrado.-->
+        <li>Arroz
+        <li>Tomate
+        <li>Leite
+        <li>Manteiga
+    </ul> <!--/li é opcional-->
+    <h2>Juntando listas, primeira versão.</h2>
+    <ol type="I">
+        <li>Verduras e Legumes</li>
+        <ol type="a">
+            <li>Batata</li>
+            <li>Cenoura</li>
+            <li>Alface</li>
+            <li>Couve</li>
+        </ol>
+        <li>Frios</li>
+        <ol type="a"> <!--é possivel adicionar 'start' em 5 e a lista continua-->
+            <li>Mortadela</li>
+            <li>Queijo</li>
+            <li>Presunto</li>
+        </ol>
+    </ol>
+    <h2>Listas de Jogos Favoritos</h2>
+    <ul>
+        <li>Franquias</li>
+        <ul type="circle">
+            <li>Castlevania</li>
+            <ol type="I">
+                <li>Aria of Sorrow</li>
+                <li>Symphony of The Night</li>
+                <li>Portrait of Ruin</li>
+            </ol>
+            <li>The Legend os Zelda</li>
+            <ol type="I">
+                <li>Ocarina of Time</li>
+                <li>Minish Cap</li>
+                <li>Breath of The Wild</li>
+            </ol>
+                <li>Metroid</li>
+            <ol type="I">
+                <li>Super Metroid</li>
+                <li>Metroid Zero Mission</li>
+                <li>Metroid Fusion</li>
+            </ol>
+        </ul>
+    </ul>
+    <h1>Listas de Definição</h1>
+    <dl>
+        <dt>CHB</dt>
+        <dd>Camp Half-Blood</dd>
+
+        <dt>HV</dt>
+        <dd>Hotel Valhalla</dd>
+    </dl>
+</body>
+</html>
