@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Typical device breakpoints:
+--------------------------------
+Telas pequenas: max-width: 600px
+Celular: max-width: 767px
+Tablet: max-width: 992px
+Desktop: max-width: 1200px
+TVs: max-width : acima 1200px
+*/
+
+@media screen and (min-width: 992px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        max-width: 700px;
+    }
+}
